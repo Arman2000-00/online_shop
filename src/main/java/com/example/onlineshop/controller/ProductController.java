@@ -1,9 +1,10 @@
 package com.example.onlineshop.controller;
 
-import com.example.onlineshop.model.*;
-import com.example.onlineshop.repository.CartRepository;
+import com.example.onlineshop.model.Category;
+import com.example.onlineshop.model.ClothesType;
+import com.example.onlineshop.model.Product;
+import com.example.onlineshop.model.Size;
 import com.example.onlineshop.repository.ProductRepository;
-import com.example.onlineshop.repository.UserRepository;
 import com.example.onlineshop.security.SpringUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
